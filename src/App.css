@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: maroon;
+  height: 90;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+} */
+
+main {
+  flex: 1 0 auto;
+}
+
+a {
+  color: #0d47a1;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header {
+    height: 30px !important;
+    padding: 0px !important;
+  }
+
+  .App-logo {
+    height: 0px !important;
+  }
+
+  .increment-button {
+    height: 40px !important;
+    width: 40px !important;
+  }
+}
+
+.die-type {
+  font-size: xx-small;
+  display: table;
+}
